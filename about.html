@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="About Lovable Pet Care — our mission, team, and commitment to compassionate dog care.">
+  <meta name="theme-color" content="#FF6B6B">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lovable Pet Care — About">
+  <meta property="og:description" content="Meet the team behind Lovable Pet Care — professional, certified sitters who treat pets like family.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1757685546168-bbab7127b3aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw2fHx0ZWFtJTIwcG9ydHJhaXQlMjBmb3IlMjBMb3ZhYmxlJTIwUGV0JTIwQ2FyZXxlbnwwfDB8fHwxNzYxMTQ0MDMxfDA&ixlib=rb-4.1.0&q=80&w=1080">
+  <meta property="og:type" content="website">
+
+  <title>Lovable Pet Care — About</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN + Config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#FF6B6B',
+              50: '#fff5f5', 100: '#ffecec', 200: '#ffd6d6', 300: '#ffbabab', 400: '#ff8f8f', 500: '#ff6b6b', 600: '#f05252', 700: '#d64545', 800: '#b83232', 900: '#8b1f1f'
+            },
+            secondary: {
+              DEFAULT: '#4FD1C5',
+              50: '#f4fbfb', 100: '#e6f9f7', 200: '#cfeef0', 300: '#9fe0d9', 400: '#66cdbf', 500: '#4fd1c5', 600: '#3aa99b', 700: '#2b887f', 800: '#1e665f', 900: '#14443f'
+            },
+            accent: {
+              DEFAULT: '#FFC857',
+              50: '#fffef6', 100: '#fff7e0', 200: '#ffefbf', 300: '#ffe294', 400: '#ffd166', 500: '#ffc857', 600: '#e6ae44', 700: '#b58133', 800: '#865f25', 900: '#5a3f16'
+            },
+            neutral: {
+              50: '#fafafa', 100: '#f5f5f5', 200: '#e5e5e5', 300: '#d4d4d4', 400: '#a3a3a3', 500: '#737373', 600: '#525252', 700: '#404040', 800: '#262626', 900: '#171717', 950: '#0a0a0a'
+            }
+          },
+          fontFamily: {
+            display: ['Poppins', 'system-ui', 'sans-serif'],
+            heading: ['Inter', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out',
+            'fade-in': 'fadeIn 0.6s ease-out',
+            'slide-in-left': 'slideInLeft 0.6s ease-out',
+            'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+            'gradient-shift': 'gradientShift 3s ease infinite'
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' }
+            },
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' }
+            },
+            slideInLeft: {
+              '0%': { opacity: '0', transform: 'translateX(-20px)' },
+              '100%': { opacity: '1', transform: 'translateX(0)' }
+            },
+            pulseGlow: {
+              '0%, 100%': { boxShadow: '0 0 20px rgba(59, 130, 246, 0.5)' },
+              '50%': { boxShadow: '0 0 40px rgba(59, 130, 246, 0.8)' }
+            },
+            gradientShift: {
+              '0%, 100%': { backgroundPosition: '0% 50%' },
+              '50%': { backgroundPosition: '100% 50%' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Inter:wght@400;500;600;700;800&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #fff; color: #0f172a; }
+    section { scroll-margin-top: 88px; }
+    *:focus-visible { outline: 3px solid rgba(255,107,107,0.9); outline-offset: 3px; border-radius: 6px; }
+    .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.06); }
+    .gradient-text { background: linear-gradient(135deg, #FF6B6B 0%, #4FD1C5 100%); background-size: 200% auto; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .noise-texture::before { content: ''; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E"); pointer-events: none; z-index: 1; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
+    .fade-in-section { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+    .fade-in-section.is-visible { opacity: 1; transform: translateY(0); }
+    .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+    .skip-link:focus { left: 1rem; top: 1rem; width: auto; height: auto; padding: 0.5rem 1rem; background: white; color: black; border-radius: 6px; z-index: 60; }
+  </style>
+
+  <!-- Structured Data JSON-LD for Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Lovable Pet Care",
+    "url": "https://lovable.example.com",
+    "logo": "https://pixabay.com/get/gd14d91db970974302238c8ed01d48d7ddd71526e6d901997fb0a9ffdf54c145aa819e406d1ceccaeb64a1c2500ac5a50a284aa67d29132e49673c5bc9a9a3691_640.jpg",
+    "sameAs": ["https://instagram.com/lovable","https://facebook.com/lovable"]
+  }
+  </script>
+</head>
+<body class="antialiased text-neutral-900">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- NAVBAR (reused) -->
+  <header>
+    <nav id="navbar" class="fixed top-0 w-full z-50 bg-white/0 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 text-2xl font-display font-bold text-neutral-900 transition-colors duration-300" aria-label="Lovable Pet Care home">
+          <span class="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-md">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 2c1.1 0 2 .9 2 2v1H10V4c0-1.1.9-2 2-2z" fill="white" />
+            </svg>
+          </span>
+          <span class="hidden sm:inline-block">Lovable</span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html#features" class="font-medium text-neutral-700 hover:text-primary">Services</a>
+          <a href="#about" class="font-medium text-neutral-700 hover:text-primary">About</a>
+          <a href="index.html#testimonials" class="font-medium text-neutral-700 hover:text-primary">Testimonials</a>
+          <a href="index.html#contact" class="font-medium text-neutral-700 hover:text-primary">Contact</a>
+          <a href="index.html#signup" class="bg-gradient-to-r from-primary to-secondary text-white px-5 py-2 rounded-full font-semibold hover:scale-105 transition-all duration-300">Book a Walk</a>
+        </div>
+
+        <button id="mobile-menu-button" class="md:hidden w-10 h-10 p-2 rounded-lg flex flex-col justify-center gap-1 text-neutral-700" aria-label="Toggle menu" aria-expanded="false">
+          <span class="w-full h-0.5 bg-current transition-all duration-300"></span>
+          <span class="w-full h-0.5 bg-current transition-all duration-300"></span>
+          <span class="w-full h-0.5 bg-current transition-all duration-300"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-64 bg-white shadow-2xl transform translate-x-full transition-transform duration-300 md:hidden z-50" aria-hidden="true">
+      <div class="p-8 space-y-6">
+        <a href="index.html#features" class="block text-neutral-700 hover:text-primary font-medium text-lg transition-colors">Services</a>
+        <a href="#about" class="block text-neutral-700 hover:text-primary font-medium text-lg transition-colors">About</a>
+        <a href="index.html#testimonials" class="block text-neutral-700 hover:text-primary font-medium text-lg transition-colors">Testimonials</a>
+        <a href="index.html#contact" class="block text-neutral-700 hover:text-primary font-medium text-lg transition-colors">Contact</a>
+        <a href="index.html#signup" class="block bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-full font-semibold text-center hover:scale-105 transition-transform">Book a Walk</a>
+      </div>
+    </div>
+
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 md:hidden z-40" aria-hidden="true"></div>
+  </header>
+
+  <main id="main" role="main">
+    <!-- About Hero -->
+    <section class="relative pt-36 pb-12 bg-white overflow-hidden">
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="order-2 md:order-1">
+          <h1 class="text-4xl md:text-5xl font-display font-bold text-neutral-900 mb-4">Our Story — Love + Expertise</h1>
+          <p class="text-neutral-600 mb-6">Lovable started when longtime dog walkers realized there was a need for dependable, compassionate care with modern communication. Today our team blends training, safety, and personality-fit matching so pets feel calm and owners feel confident.</p>
+
+          <a href="index.html#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white px-5 py-3 rounded-full font-semibold hover:scale-105 transition-transform">Get in touch
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="order-1 md:order-2 relative">
+          <div class="rounded-2xl overflow-hidden shadow-2xl">
+            <img src="https://images.pexels.com/photos/10369105/pexels-photo-10369105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Team walking dogs in golden hour" class="w-full h-80 object-cover" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="about" class="py-16 fade-in-section">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-heading font-bold text-neutral-900 mb-6">Meet the team</h2>
+        <p class="text-neutral-600 mb-8 max-w-2xl mx-auto">Each sitter is trained, certified in pet first aid, and goes through our matching process to ensure the best fit for your pet.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <!-- Team member -->
+          <article class="bg-white p-6 rounded-2xl shadow-md text-left">
+            <img src="https://images.pexels.com/photos/4427497/pexels-photo-4427497.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Anna — Lead sitter" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="font-semibold">Anna P.</h3>
+            <p class="text-sm text-neutral-500 mb-2">Lead sitter • Trainer</p>
+            <p class="text-sm text-neutral-600">Anna leads training and quality for our sitters. Certified in canine behavior and pet first aid.</p>
+          </article>
+
+          <article class="bg-white p-6 rounded-2xl shadow-md text-left">
+            <img src="https://images.pexels.com/photos/5778296/pexels-photo-5778296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Diego — Operations" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="font-semibold">Diego R.</h3>
+            <p class="text-sm text-neutral-500 mb-2">Operations</p>
+            <p class="text-sm text-neutral-600">Runs scheduling and sitter matching to make sure your pup meets the perfect walker.</p>
+          </article>
+
+          <article class="bg-white p-6 rounded-2xl shadow-md text-left">
+            <img src="https://images.pexels.com/photos/3894378/pexels-photo-3894378.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Maya — Client success" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="font-semibold">Maya L.</h3>
+            <p class="text-sm text-neutral-500 mb-2">Client Success</p>
+            <p class="text-sm text-neutral-600">Handles meet & greets and ensures smooth onboarding for first-time clients.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES & SAFETY -->
+    <section class="py-16 bg-neutral-50 fade-in-section">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-heading font-bold text-neutral-900 mb-3">Our values</h2>
+          <ul class="space-y-3 text-neutral-600">
+            <li>Care first — every decision centers your pet's wellbeing.</li>
+            <li>Transparent communication — photos, GPS, and reports.</li>
+            <li>Safety & training — sitters certified in first aid.</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-2xl font-heading font-bold text-neutral-900 mb-3">Safety & assurance</h2>
+          <p class="text-neutral-600">All sitters are background-checked and trained with mandatory continuing education. Our equipment and procedures are reviewed regularly to keep pets safe and comfortable.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-12 text-center fade-in-section">
+      <div class="max-w-4xl mx-auto px-6">
+        <h3 class="text-2xl font-heading font-bold mb-3">Meet & Greet — free for first-time clients</h3>
+        <p class="text-neutral-600 mb-6">Schedule a short, no-cost meeting so your sitter and pet can get acquainted in a calm, comfortable setting.</p>
+        <a href="index.html#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform">Schedule Meet & Greet</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-neutral-900 text-neutral-200 py-12">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <a href="index.html" class="flex items-center gap-3 text-xl font-display font-bold text-white">
+            <span class="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M12 2c1.1 0 2 .9 2 2v1H10V4c0-1.1.9-2 2-2z" fill="white" />
+              </svg>
+            </span>
+            Lovable
+          </a>
+          <p class="mt-4 text-sm text-neutral-400">Warm, professional care for dogs in your community.</p>
+        </div>
+
+        <div class="text-sm text-neutral-400">
+          <h4 class="font-semibold text-neutral-200 mb-3">Contact</h4>
+          <div>+1 (555) 555-0123</div>
+          <div class="mt-1">support@lovable.example.com</div>
+        </div>
+
+        <div class="text-sm text-neutral-400">
+          <h4 class="font-semibold text-neutral-200 mb-3">Follow</h4>
+          <div class="flex items-center gap-3">
+            <a href="#" class="p-2 rounded-md bg-white/5 hover:bg-white/10">Instagram</a>
+            <a href="#" class="p-2 rounded-md bg-white/5 hover:bg-white/10">Facebook</a>
+          </div>
+          <div class="mt-4 text-neutral-500 text-xs">© <span id="year"></span> Lovable Pet Care</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Intersection Observer for fade-in
+    const observerOptions = { threshold: 0.12, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('is-visible'); }); }, observerOptions);
+    document.querySelectorAll('.fade-in-section').forEach(el => observer.observe(el));
+
+    // Navbar scroll behavior
+    const navbar = document.getElementById('navbar');
+    function updateNavbar() {
+      if (window.scrollY > 80) { navbar.classList.add('bg-white/90', 'backdrop-blur-md', 'shadow-md'); } else { navbar.classList.remove('bg-white/90', 'backdrop-blur-md', 'shadow-md'); }
+    }
+    updateNavbar();
+    window.addEventListener('scroll', updateNavbar);
+
+    // Mobile menu toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+    function openMobile(){ mobileMenu.classList.remove('translate-x-full'); mobileMenuOverlay.classList.remove('opacity-0','pointer-events-none'); mobileMenu.setAttribute('aria-hidden','false'); mobileMenuButton.setAttribute('aria-expanded','true'); }
+    function closeMobile(){ mobileMenu.classList.add('translate-x-full'); mobileMenuOverlay.classList.add('opacity-0','pointer-events-none'); mobileMenu.setAttribute('aria-hidden','true'); mobileMenuButton.setAttribute('aria-expanded','false'); }
+    mobileMenuButton?.addEventListener('click', ()=>{ const isOpen = !mobileMenu.classList.contains('translate-x-full'); if (isOpen) closeMobile(); else openMobile(); });
+    mobileMenuOverlay?.addEventListener('click', closeMobile);
+    mobileMenu?.querySelectorAll('a').forEach(link=>link.addEventListener('click', closeMobile));
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.querySelectorAll('*').forEach(el => el.style.animation = 'none');
+  </script>
+</body>
+</html>
